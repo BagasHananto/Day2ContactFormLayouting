@@ -26,37 +26,31 @@
             
             nav div {
                 display: flex;
-                background-color: #f4f4f4;
                 align-items: center;
                 flex: 50%;
             }
             
             nav div.left-side {
                 padding-left: 90px;
-                background-color: #f4f4f4;
             }
             
             nav div.right-side {
                 display: flex;
-                background-color: #f4f4f4;
                 justify-content: flex-end;
                 padding-right: 90px;
             }
             
             nav ul {
-                background-color: #f4f4f4;
                 display: flex;
                 list-style-type: none;
             }
             
             nav ul li {
-                background-color: #f4f4f4;
                 display: inline;
                 margin-left: 40px;
             }
             
             nav ul li a {
-                background-color: #f4f4f4;
                 text-decoration: none;
                 color: black;
             }
@@ -79,12 +73,10 @@
             
             .container {
                 background-color: #f4f4f4;
-                padding: 50px 30px 50px 30px;
-                margin: 100px auto;
+                padding: 50px 30px;
+                margin: 100px 50px;
                 border-radius: 1%;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-                width: 1350px;
-                height: 750px;
             }
             
             .container-h1 {
@@ -95,7 +87,7 @@
             
             .container-img {
                 text-align: center;
-                margin: 50px 0 50px 0;
+                margin: 50px 0 20px 0;
                 width: 350px;
                 height: 440px;
                 border-radius: 5px;
@@ -137,10 +129,15 @@
             
             .sosmed {
                 padding-left: 30px;
-                margin-bottom: 1400px;
             }
             
             .sosmed a:link {
                 padding-right: 20px;
             }
             /*Isi LP*/
+            
+            @media screen and (max-width :576px) {
+                nav .right-side>a {
+                    display: none;
+                }
+            }
