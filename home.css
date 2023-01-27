@@ -218,4 +218,7 @@
         body {
             width: 100%;
         }
+        .form-group {
+            overflow-x: hidden;
+        }
     }
