@@ -126,7 +126,7 @@
     .container {
         display: flex;
         overflow-x: block;
-        flex: 30%;
+        flex: 20%;
         justify-content: center;
         margin: 50px 50px 50px 50px;
     }
