@@ -1,187 +1,211 @@
- * {
-     margin: 0;
-     padding: 0;
-     font-family: 'Poppins', sans-serif;
-     box-sizing: border-box;
- }
- 
- body {
-     background-color: #ddd;
- }
- /*Untuk Form*/
- 
- div.Title {
-     text-align: center;
-     margin: 50px auto;
- }
- /*Untuk Form end*/
- /*Untuk Navbar*/
- 
- nav {
-     display: flex;
-     background-color: #f4f4f4;
-     height: 8vh;
-     align-items: center;
- }
- 
- nav div {
-     display: flex;
-     align-items: center;
-     flex: 50%;
- }
- 
- nav div.left-side {
-     padding-left: 90px;
- }
- 
- nav div.right-side {
-     display: flex;
-     justify-content: flex-end;
-     padding-right: 90px;
- }
- 
- nav ul {
-     display: flex;
-     list-style-type: none;
- }
- 
- nav ul li {
-     display: inline;
-     margin-left: 40px;
- }
- 
- nav ul li a {
-     text-decoration: none;
-     color: black;
- }
- 
- nav ul li a.active {
-     color: #1e1e1e;
-     font-weight: 800;
- }
- 
- nav .right-side a {
-     font-size: 15px;
-     padding: 8px 20px;
-     background-color: #1e1e1e;
-     width: 100% auto;
-     border-radius: 8px;
-     color: #fff;
-     text-decoration: none;
- }
- /*Untuk Navbar*/
- /*Isi LP*/
- 
- .container {
-     background-color: white;
-     justify-content: center;
-     align-items: center;
-     display: flex;
-     flex-wrap: wrap;
-     width: 90%;
-     height: auto;
-     min-height: 100vh;
-     margin: 100px auto;
-     border-radius: 15px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- }
- 
- .warp {
-     display: flex;
-     align-items: center;
-     padding: 100px 80px;
- }
- 
- .text>p {
-     text-align: justify;
-     margin: 0 80px 0 0;
- }
- 
- .button {
-     display: flex;
-     margin: 70px auto;
- }
- 
- .container-img {
-     text-align: center;
- }
- 
- #logo {
-     padding: 0 15px 0 0;
- }
- 
- #link {
-     text-decoration: none;
-     color: #1e1e1e;
- }
- 
- #link-1 {
-     text-decoration: none;
- }
- 
- .container-img {
-     width: 100%;
-     height: auto;
-     border-radius: 5px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
- }
- 
- .container-img>img {
-     border-top-left-radius: 5px;
-     border-top-right-radius: 5px;
- }
- 
- #foto {
-     border-top-left-radius: 5px;
-     border-top-right-radius: 5px;
- }
- 
- @media screen and (max-width: 922px) {
-     .warp {
-         flex-wrap: wrap;
-     }
-     .container {
-         width: 90%;
-     }
-     .logo {
-         margin: 0 0 50px 0;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     nav {
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     nav .right-side {
-         width: 10%;
-     }
-     .container-img {
-         width: 50%;
-         margin: auto;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     .container-img>img {
-         width: 100%;
-         margin: auto;
-         justify-content: center;
-         align-items: center;
-         text-align: center;
-     }
-     .button {
-         width: auto;
-         justify-content: center;
-         align-content: center;
-         text-align: center;
-     }
-     .text {
-         width: 100%;
-         justify-content: center;
-         align-content: center;
-         padding: none;
-         margin: none;
-     }
- }
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    margin: auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+section {
+    padding: 30px 70px 30px 70px;
+    position: relative;
+}
+
+
+/*Untuk Navbar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    height: 8vh;
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    flex: 50%;
+}
+
+nav div.left-side {
+    padding-left: 90px;
+}
+
+nav div.right-side {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a.active {
+    color: #1e1e1e;
+    font-weight: 800;
+}
+
+nav .right-side a {
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color: #1e1e1e;
+    width: 100% auto;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*Untuk Navbar*/
+
+
+/*Isi LP*/
+
+
+/*Text, Sosial Media*/
+
+.warp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    margin: 50px auto;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 80%;
+    margin: 80px 0 80px 50px;
+}
+
+.text p {
+    text-align: justify;
+}
+
+#logo {
+    padding: 0 15px 0 0;
+}
+
+#link {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+#link-1 {
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    margin: 70px auto;
+}
+
+
+/*Text, Sosial Media*/
+
+.container {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+    margin: 50px 50px 50px 50px;
+}
+
+.font {
+    text-align: center;
+}
+
+.card {
+    width: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+#foto {
+    width: 20rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/*Untuk Form*/
+
+div.Title {
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+/*Untuk Form end*/
+
+
+/*Responsive*/
+
+@media screen and (max-width: 900px) {
+    header {
+        padding: 5px 10px 5px 10px;
+    }
+    section {
+        padding: 30px 20px 30px 20px;
+        position: relative;
+    }
+    .warp {
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 100%;
+        margin: 50px 30px 50px 30px !important;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0 0 0 !important;
+    }
+}
+
+@media screen and (max-width :576px) {
+    .form.group {
+        width: 90% !important;
+    }
+}
+
+@media (min-width:200px) and (max-width:700px) {
+    body {
+        width: 200vw;
+    }
+}
