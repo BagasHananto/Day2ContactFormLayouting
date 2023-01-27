@@ -205,10 +205,7 @@ div.Title {
 }
 
 @media (min-width:200px) and (max-width:700px) {
-    head {
-        width: 100%;
-    }
     body {
-        width: 100%;
+        width: 150%;
     }
 }
